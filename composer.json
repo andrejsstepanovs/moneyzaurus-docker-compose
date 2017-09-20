@@ -1,0 +1,32 @@
+{
+	"repositories": [
+	    {
+		"type":"package",
+		"package": {
+		  "name": "andrejsstepanovs/moneyzaurus-api",
+		  "version":"master",
+		  "source": {
+		      "url": "https://github.com/andrejsstepanovs/moneyzaurus-api.git",
+		      "type": "git",
+		      "reference":"master"
+		    }
+		}
+	    },
+	    {
+		"type":"package",
+		"package": {
+		  "name": "andrejsstepanovs/moneyzaurus-ci",
+		  "version":"master",
+		  "source": {
+		      "url": "https://github.com/andrejsstepanovs/moneyzaurus-ci.git",
+		      "type": "git",
+		      "reference":"master"
+		    }
+		}
+	    }
+	],
+	"require": {
+	    "andrejsstepanovs/moneyzaurus-api": "dev-master",
+	    "andrejsstepanovs/moneyzaurus-ci": "dev-master"
+	}
+}

@@ -1,0 +1,43 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0a8161f89ade28b243657ce1ebedf6e9",
+    "packages": [
+        {
+            "name": "andrejsstepanovs/moneyzaurus-api",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andrejsstepanovs/moneyzaurus-api.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "time": "2017-09-20T18:47:59+00:00"
+        },
+        {
+            "name": "andrejsstepanovs/moneyzaurus-ci",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andrejsstepanovs/moneyzaurus-ci.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "time": "2017-09-20T18:49:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "andrejsstepanovs/moneyzaurus-api": 20,
+        "andrejsstepanovs/moneyzaurus-ci": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
